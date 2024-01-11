@@ -499,11 +499,11 @@ export async function handleSync(argv) {
       })
     }
 
-    const currentTimestamp = new Date().toLocaleString("en-US", {
+    const currentTimestamp = new Date().toLocaleString("ru-RU", {
       dateStyle: "medium",
       timeStyle: "short",
     })
-    const commitMessage = argv.message ?? `Quartz sync: ${currentTimestamp}`
+    const commitMessage = argv.message ?? `${currentTimestamp}`
     spawnSync("git", ["add", "."], { stdio: "inherit" })
     spawnSync("git", ["commit", "-m", commitMessage], { stdio: "inherit" })
 
