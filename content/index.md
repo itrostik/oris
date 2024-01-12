@@ -15,3 +15,4 @@ title: пошла вода горячая
 
 Возникли вопросы? - [GitHub](https://github.com/lld4n/oris)
 
+[база](https://youtu.be/VAZz2qGAmjc)
