@@ -4,4 +4,4 @@
 
 Ну или `issue` делаешь, но я не шарю че там и как
 
-Если что `Markdown` формата, как у `Obsidian`
+Если что `Obsidian Markdown`
